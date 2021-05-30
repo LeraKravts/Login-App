@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1EE59F266409AD001680C8 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EE59E266409AD001680C8 /* Info.swift */; };
+		3C1EE5A226640C6E001680C8 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EE5A126640C6E001680C8 /* informationViewController.swift */; };
+		3C1EE5A526641090001680C8 /* factsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EE5A426641090001680C8 /* factsViewController.swift */; };
+		3C1EE5A8266411BE001680C8 /* facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1EE5A7266411BE001680C8 /* facts.swift */; };
 		3CCB6C4326601A4900032866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4226601A4900032866 /* AppDelegate.swift */; };
 		3CCB6C4526601A4900032866 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4426601A4900032866 /* SceneDelegate.swift */; };
 		3CCB6C4726601A4900032866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4626601A4900032866 /* ViewController.swift */; };
 		3CCB6C4A26601A4900032866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4826601A4900032866 /* Main.storyboard */; };
 		3CCB6C4C26601A4A00032866 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4B26601A4A00032866 /* Assets.xcassets */; };
 		3CCB6C4F26601A4A00032866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCB6C4D26601A4A00032866 /* LaunchScreen.storyboard */; };
+		3CE9E3332660BC990069A7FF /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9E3322660BC990069A7FF /* welcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1EE59E266409AD001680C8 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		3C1EE5A126640C6E001680C8 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		3C1EE5A426641090001680C8 /* factsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factsViewController.swift; sourceTree = "<group>"; };
+		3C1EE5A7266411BE001680C8 /* facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facts.swift; sourceTree = "<group>"; };
 		3CCB6C3F26601A4900032866 /* Logon App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Logon App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCB6C4226601A4900032866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCB6C4426601A4900032866 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		3CCB6C4B26601A4A00032866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CCB6C4E26601A4A00032866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CCB6C5026601A4A00032866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE9E3322660BC990069A7FF /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C461425266408DE0095D026 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C1EE59E266409AD001680C8 /* Info.swift */,
+				3C1EE5A7266411BE001680C8 /* facts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3CCB6C3626601A4900032866 = {
 			isa = PBXGroup;
 			children = (
@@ -59,7 +78,11 @@
 				3CCB6C4226601A4900032866 /* AppDelegate.swift */,
 				3CCB6C4426601A4900032866 /* SceneDelegate.swift */,
 				3CCB6C4626601A4900032866 /* ViewController.swift */,
+				3C461425266408DE0095D026 /* Models */,
 				3CCB6C4826601A4900032866 /* Main.storyboard */,
+				3C1EE5A426641090001680C8 /* factsViewController.swift */,
+				3C1EE5A126640C6E001680C8 /* informationViewController.swift */,
+				3CE9E3322660BC990069A7FF /* welcomeViewController.swift */,
 				3CCB6C4B26601A4A00032866 /* Assets.xcassets */,
 				3CCB6C4D26601A4A00032866 /* LaunchScreen.storyboard */,
 				3CCB6C5026601A4A00032866 /* Info.plist */,
@@ -138,8 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCB6C4726601A4900032866 /* ViewController.swift in Sources */,
+				3CE9E3332660BC990069A7FF /* welcomeViewController.swift in Sources */,
+				3C1EE5A526641090001680C8 /* factsViewController.swift in Sources */,
 				3CCB6C4326601A4900032866 /* AppDelegate.swift in Sources */,
+				3C1EE59F266409AD001680C8 /* Info.swift in Sources */,
 				3CCB6C4526601A4900032866 /* SceneDelegate.swift in Sources */,
+				3C1EE5A226640C6E001680C8 /* informationViewController.swift in Sources */,
+				3C1EE5A8266411BE001680C8 /* facts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Logon App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.Swiftbook.Logon-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,6 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Logon App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.Swiftbook.Logon-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
